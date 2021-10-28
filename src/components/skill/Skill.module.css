@@ -1,0 +1,39 @@
+.skill {
+    /* font-family: 'Nanum Gothic Coding', monospace; */
+    background-color: rgb(255, 255, 255);
+}
+
+.skillPage {
+    width: 100vw;
+    max-width: 73em;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.skillContent{
+    padding-top: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.skillTitle{
+    font-size: 3.5rem;
+    color: rgb(92, 92, 92);
+    text-align: start;
+    border-bottom: 1px solid rgb(92, 92, 92);
+}
+.skillImgSet{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillImg{
+    width: 20%;
+    padding: 2rem;
+}

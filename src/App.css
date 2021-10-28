@@ -1,0 +1,11 @@
+.App {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background:  rgb(202, 222, 228);
+}
+
+.pageContent{
+  width: 100vw;
+  height: 100vh;
+}

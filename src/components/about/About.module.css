@@ -1,0 +1,30 @@
+.about {
+    /* font-family: 'Nanum Gothic Coding', monospace; */
+    background-color: rgb(245, 245, 245);
+}
+
+.aboutPage {
+    width: 100vw;
+    max-width: 73em;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.aboutTitle{
+    text-align: end;
+    padding-top: 40vh;
+    padding-right: 7rem;
+    color: rgb(57,57,57);
+    font-size: 3rem;
+}
+
+.aboutContent{
+    padding-top: 16vh;
+    width: 100%;
+    align-items: baseline;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
