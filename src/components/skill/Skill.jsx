@@ -14,6 +14,7 @@ export default function Skill() {
                         <img src="redux.png" alt="redux" className = {style.skillImg}/>
                         <img src="typescript.png" alt="typescript" className = {style.skillImg}/>
                         <img src="git.png" alt="git" className = {style.skillImg}/>
+                        <img src="jquery.png" alt="jquery" className = {style.skillImg}/>
                     </div>
                 </div>
             </div>
