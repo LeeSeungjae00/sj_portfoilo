@@ -19,7 +19,7 @@ export default function Project() {
             <div className={style.projectPage}>
                 <div className={style.projectContent}>
                     <div style={{ width: "100%" }}>
-                        <div>PROJECTS</div>
+                        <div className = {style.title}>👨‍💻 PROJECTS</div>
                         <Slider {...settings}>
                             <div>
                                 <ProjectCard
@@ -32,7 +32,7 @@ export default function Project() {
                                             <b>React.js 관련 기술 습득, Chart.js를 통한 차트 표출, Axios와 같은 통신 라이브러리를 통한 REST API 사용</b>을 익혔습니다.
                                         </>
                                     }
-                                    mainFuc={<>사용자의 신채 정보를 넣어 년수마다 B형간염에 걸릴 년수마다 확률을 측정</>}
+                                    mainFuc={<>사용자의 신체 정보를 넣어 년수마다 B형간염에 걸릴 년수마다 확률을 측정</>}
                                     domain="https://planbhcc.com/"
                                     github="https://github.com/LeeSeungjae00"
                                     stack="React.js, Chart.js, Material UI"
@@ -56,16 +56,38 @@ export default function Project() {
                                 ></ProjectCard>
                             </div>
                             <div>
-                                <h3>3</h3>
+                                <ProjectCard
+                                    title={<><div>B-35K</div><div style = {{fontSize : "1rem" , color : 'gray'}}>전 회사 GSI 프로젝트</div></>}
+                                    imgSrc="b-35k.png"
+                                    imgAlt="b-35k"
+                                    AccText={
+                                        <>
+                                            중계기의 온도, 오프셋 등의 각종 정보를 받아와 표출하고 각종 설정을 통해 중계기를 제어할 수 있는 웹 페이지 입니다.<br></br>
+                                            <b>lazy loading, React-Router, TypeScript를 통한 React 사용법과 같은 좀더 심화적인 React.js 관련 기술, 상태관리 미들웨어 Redux의 동작과 사용법, Axios와 같은 통신 라이브러리를 통한 REST API 사용</b> 과 같은 가술을 익힐 수 있었습니다.
+                                        </>
+                                    }
+                                    mainFuc={<>중계기의 각종 상태 값들을 조회하고 제어할 수 있는 웹 페이지</>}
+                                    domain="-"
+                                    github="-"
+                                    stack="React.js, Redux, Typescript"
+                                ></ProjectCard>
                             </div>
                             <div>
-                                <h3>4</h3>
-                            </div>
-                            <div>
-                                <h3>5</h3>
-                            </div>
-                            <div>
-                                <h3>6</h3>
+                                <ProjectCard
+                                    title={<><div>IR1</div><div style = {{fontSize : "1rem" , color : 'gray'}}>전 회사 GSI 프로젝트</div></>}
+                                    imgSrc="ir1.gif"
+                                    imgAlt="ir1"
+                                    AccText={
+                                        <>
+                                            중계기의 온도, 오프셋 등의 각종 정보를 받아와 표출하고 각종 설정을 통해 중계기를 제어할 수 있는 웹 페이지 입니다.<br></br>
+                                            기초를 다지게 된 프로젝트 이며 <b>기본적인 javascript, html, css의 사용법과 웹의 구동 방식, jquery를 통한 비동기 통신</b>을 익혔습니다.
+                                        </>
+                                    }
+                                    mainFuc={<>중계기의 각종 상태 값들을 조회하고 제어할 수 있는 웹 페이지</>}
+                                    domain="-"
+                                    github="-"
+                                    stack="javascript, css, html, jquery"
+                                ></ProjectCard>
                             </div>
                         </Slider>
                     </div>

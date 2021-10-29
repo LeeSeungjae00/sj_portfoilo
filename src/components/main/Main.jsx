@@ -33,7 +33,9 @@ export default function Main() {
                 <div >
                     <img className={style.myPicture} src="IMG_0117.JPG" alt="my_picture" />
                 </div>
+                <div className={style.reserved}>© 2021.<br/> Lee Seung Jae.<br/> All rights reserved.</div>
             </div>
+            
         </div>
     )
 }
