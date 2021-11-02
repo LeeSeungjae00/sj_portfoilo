@@ -39,7 +39,7 @@
 
 .projectCard {
     width: 87%;
-    height: 75%;
+    height: 85%;
     background: white;
     box-shadow: 0.3rem 0.3rem 0.3rem 0 rgb(68 68 68 / 20%);
     -webkit-box-shadow: 0.3rem 0.3rem 0.3rem 0 rgb(68 68 68 / 20%);
@@ -47,6 +47,7 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 
 .projectCardContent {
@@ -64,6 +65,7 @@
 
 .projectImg {
     width: 100%;
+    height: 100%;
 }
 
 .projectImgLab {
