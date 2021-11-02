@@ -36,9 +36,15 @@ export default function Main() {
                         <div className={style.phone}>TEL. 010 9142 8662</div>
                         <div style={{ borderLeft: "1px solid white", height: "18vh", marginBottom: "7vh" }}></div>
                         <div className={style.icons}>
-                            <InstagramIcon sx={iconOption}></InstagramIcon>
-                            <Facebook sx={iconOption}></Facebook>
-                            <GitHub sx={iconOption}></GitHub>
+                            <a style={{ textAlign: 'start' }} href="https://www.instagram.com/seung__00_/">
+                                <InstagramIcon sx={iconOption}></InstagramIcon>
+                            </a>
+                            <a style={{ textAlign: 'start' }} href="https://www.facebook.com/profile.php?id=100007292509132">
+                                <Facebook sx={iconOption}></Facebook>
+                            </a>
+                            <a style={{ textAlign: 'start' }} href="https://github.com/LeeSeungjae00">
+                                <GitHub sx={iconOption}></GitHub>
+                            </a>
                         </div>
                     </div>
                     <div className={style.introduce}>

@@ -19,8 +19,8 @@ export default function Header() {
         <header className={scrollPosition < 100 ? style.header : style.changeHeader}>
             <div className={scrollPosition < 100 ? style.headerContent : style.changeHeaderContent}>
                 <div className={style.menuButton} 
-                onMouseOver={() => {if(!menuHover) setMenuHover(true); console.log("enter")}} 
-                onMouseLeave={() => {if(menuHover) setMenuHover(false); console.log("Out")}}
+                onMouseOver={() => {if(!menuHover) setMenuHover(true);}} 
+                onMouseLeave={() => {if(menuHover) setMenuHover(false);}}
                 >
                     {!menuHover ? 
                     <MenuIcon sx={{ color: 'rgb(155,155,152)', fontSize: "3rem" }} ></MenuIcon> : 

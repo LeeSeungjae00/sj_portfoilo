@@ -36,7 +36,7 @@ export default function Project() {
                                         }
                                         mainFuc={<>사용자의 신체 정보를 넣어 년수마다 B형간염에 걸릴 년수마다 확률을 측정</>}
                                         domain="https://planbhcc.com/"
-                                        github="https://github.com/LeeSeungjae00"
+                                        github="https://github.com/LeeSeungjae00/plan-b"
                                         stack="React.js, Chart.js, Material UI"
                                     ></ProjectCard>
                                 </div>
@@ -53,7 +53,7 @@ export default function Project() {
                                         }
                                         mainFuc={<>궤양의 종류를 예측 할 수 있는 웹 사이트</>}
                                         domain="https://aiscopeseoul.com/"
-                                        github="https://github.com/LeeSeungjae00"
+                                        github="https://github.com/LeeSeungjae00/ai-scope"
                                         stack="React.js, Material UI"
                                     ></ProjectCard>
                                 </div>
