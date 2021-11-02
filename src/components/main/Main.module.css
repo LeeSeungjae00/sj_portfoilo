@@ -10,22 +10,21 @@
 
 .mainContent{
     padding-top: 15vh;
-    display: grid;
+    display: flex;
     height: 85vh;
     width: 100vw;
-    grid-template-columns:10% 50% 40%;
-
 }
 
 .contect{
     display: flex;
     flex-direction: column;
+    width: 10%;
 }
 
 .introduce{
     padding-top: 7rem;
     padding-left: 7rem;
-    
+    width: 45%;
 }
 
 .hello{

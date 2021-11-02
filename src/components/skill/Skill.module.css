@@ -12,7 +12,7 @@
 }
 
 .skillContent{
-    padding-top: 12vh;
+    padding-top: 8vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -27,13 +27,20 @@
     border-bottom: 1px solid rgb(92, 92, 92);
 }
 .skillImgSet{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    height: 72%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    margin: 0 auto;
+    grid-gap: 1rem;
+    width: 80%;
 }
 
 .skillImg{
-    width: 20%;
-    padding: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.imgLap{
+    width: 100%
 }

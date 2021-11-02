@@ -11,12 +11,12 @@ export default function Skill() {
                     <div className={style.skillTitle}>📚MY SKILL</div>
                     <hr />
                     <div className={style.skillImgSet}>
-                        <img src="html_css_js.png" alt="html,js,css" className = {style.skillImg}/>
-                        <img src="react.png" alt="react" className = {style.skillImg}/>
-                        <img src="redux.png" alt="redux" className = {style.skillImg}/>
-                        <img src="typescript.png" alt="typescript" className = {style.skillImg}/>
-                        <img src="git.png" alt="git" className = {style.skillImg}/>
-                        <img src="jquery.png" alt="jquery" className = {style.skillImg}/>
+                        <div className = {style.imgLap}><img src="html_css_js.png" alt="html,js,css" className = {style.skillImg}/></div>
+                        <div className = {style.imgLap}><img src="react.png" alt="react" className = {style.skillImg}/></div>
+                        <div className = {style.imgLap}><img src="redux.png" alt="redux" className = {style.skillImg}/></div>
+                        <div className = {style.imgLap}><img src="typescript.png" alt="typescript" className = {style.skillImg}/></div>
+                        <div className = {style.imgLap}><img src="git.png" alt="git" className = {style.skillImg}/></div>
+                        <div className = {style.imgLap}><img src="jquery.png" alt="jquery" className = {style.skillImg}/></div>
                     </div>
                 </div>
             </div>

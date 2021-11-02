@@ -45,6 +45,7 @@ export default function Main() {
                             <a style={{ textAlign: 'start' }} href="https://github.com/LeeSeungjae00">
                                 <GitHub sx={iconOption}></GitHub>
                             </a>
+                            <div className={style.reserved}>© 2021.<br /> Lee Seung Jae.<br /> All rights reserved.</div>
                         </div>
                     </div>
                     <div className={style.introduce}>
@@ -55,10 +56,10 @@ export default function Main() {
                         <div className={style.subText}>새로운 기술을 도입하는 것을 좋아하며</div>
                         <div className={style.subText}>성장에 목마른 웹 프론트 앤드 개발자 입니다.</div>
                     </div>
-                    <div >
+                    <div style = {{width : "45%"}}>
                         <img className={style.myPicture} src="IMG_0117.JPG" alt="my_picture" />
                     </div>
-                    <div className={style.reserved}>© 2021.<br /> Lee Seung Jae.<br /> All rights reserved.</div>
+                    
                 </div>
 
             </div>
