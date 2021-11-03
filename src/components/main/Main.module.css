@@ -8,6 +8,15 @@
     display: flex;
 }
 
+.mainLap{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgLap{
+    width: 45%;
+}
+
 .mainContent{
     padding-top: 15vh;
     display: flex;
@@ -63,4 +72,67 @@
     width: 100%;
     font-size: 0.5rem;
     color: #646464;
+}
+
+@media screen and (max-width:1024px) {
+    /* 타블렛 */
+    .mainPage {
+        width: 100%;
+        padding: 0;
+    }
+
+    .introduce{
+        padding: 0;
+        width: 93%;
+    }
+
+    .hello{
+        padding-left: 1rem;
+    }
+    .subText{
+        padding-left: 1rem;
+    }
+
+    .mainLap{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgLap{
+        width: 93%;
+    }
+
+    .contect{
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        padding-left: 1rem;
+        justify-content: space-around;
+    }
+    .myPicture{
+        width: 83%;
+        height: 54%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    /* 모바일 */
+    .hello{
+        font-size: 2.5rem;
+        padding-left: 1rem;
+    }
+    .subText{
+        padding-left: 1rem;
+    }
+    .phone{
+        writing-mode: vertical-rl;
+        transform :rotate(180deg);
+        padding: 1rem 0rem 1rem 0rem;
+        color: white;
+    }
+    .mainContent{
+        padding-top: 15vh;
+        padding-bottom: 1rem;
+        height: fit-content;
+    }
 }

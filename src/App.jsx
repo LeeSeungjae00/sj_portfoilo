@@ -13,7 +13,7 @@ function App() {
       <Main></Main>
       <About></About>
       <Skill></Skill>
-      <Project></Project>
+      {/* <Project></Project> */}
     </div>
   );
 }

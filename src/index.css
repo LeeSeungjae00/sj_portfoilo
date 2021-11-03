@@ -12,3 +12,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media screen and (max-width:1024px) {
+  /* 타블렛 */
+  body {
+    overflow-x: auto;
+  }
+}
+
+@media screen and (max-width:767px) {
+  /* 모바일 */
+  body {
+    overflow-x: auto;
+  }
+}

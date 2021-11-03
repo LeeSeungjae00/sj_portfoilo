@@ -16,3 +16,37 @@
 .cardContent{
     font-size: 1.5rem;
 }
+
+@media screen and (max-width:1024px) {
+    /* 타블렛 */
+    .aboutCard{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    /* 모바일 */
+    .aboutCard{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cardEmoji{
+        font-size: 2.5rem;
+        padding-right: 2rem;
+    }
+    
+    .cardName{
+        font-size: 1.2rem;
+    }
+    
+    .cardContent{
+        font-size: 0.5rem;
+    }
+}

@@ -48,18 +48,19 @@ export default function Main() {
                             <div className={style.reserved}>© 2021.<br /> Lee Seung Jae.<br /> All rights reserved.</div>
                         </div>
                     </div>
-                    <div className={style.introduce}>
-                        <animated.div style={props1}><div className={style.hello}>🙇‍♂️ 안녕하세요.</div></animated.div>
-                        <animated.div style={props2}><div className={style.hello}>💻 웹 개발자</div></animated.div>
-                        <animated.div style={props3}><div className={style.hello}><b>이승재</b> 입니다.</div></animated.div>
-                        <hr></hr>
-                        <div className={style.subText}>새로운 기술을 도입하는 것을 좋아하며</div>
-                        <div className={style.subText}>성장에 목마른 웹 프론트 앤드 개발자 입니다.</div>
+                    <div className={style.mainLap}>
+                        <div className={style.introduce}>
+                            <animated.div style={props1}><div className={style.hello}>🙇‍♂️ 안녕하세요.</div></animated.div>
+                            <animated.div style={props2}><div className={style.hello}>💻 웹 개발자</div></animated.div>
+                            <animated.div style={props3}><div className={style.hello}><b>이승재</b> 입니다.</div></animated.div>
+                            <hr></hr>
+                            <div className={style.subText}>새로운 기술을 도입하는 것을 좋아하며</div>
+                            <div className={style.subText}>성장에 목마른 웹 프론트 앤드 개발자 입니다.</div>
+                        </div>
+                        <div className={style.imgLap}>
+                            <img className={style.myPicture} src="IMG_0117.JPG" alt="my_picture" />
+                        </div>
                     </div>
-                    <div style = {{width : "45%"}}>
-                        <img className={style.myPicture} src="IMG_0117.JPG" alt="my_picture" />
-                    </div>
-                    
                 </div>
 
             </div>

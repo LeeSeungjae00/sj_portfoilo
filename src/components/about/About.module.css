@@ -28,3 +28,41 @@
     flex-wrap: wrap;
 }
 
+
+@media screen and (max-width:1024px) {
+    /* 타블렛 */
+    .aboutPage {
+        width: 100%;
+        max-width: none;
+    }
+    .aboutTitle{
+        text-align: start;
+        padding-top: 4rem;
+        padding-left: 1rem;
+        padding-right: 0;
+        font-size: 1rem;
+    }
+    .aboutContent{
+        padding-top: 1rem;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        height: inherit;
+    }
+    .aboutPage {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    /* 모바일 */
+    .aboutTitle{
+        padding-top: 6rem;
+    }
+    .aboutPage {
+        flex-direction: column;
+    }
+}
