@@ -13,6 +13,7 @@ export default function Project() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        className : "slide",
     };
 
     return (
@@ -20,7 +21,7 @@ export default function Project() {
             <div className={style.project}>
                 <div className={style.projectPage}>
                     <div className={style.projectContent}>
-                        <div style={{ width: "100%" }}>
+                        <div className ={style.slideLap}>
                             <div className={style.title}>👨‍💻 PROJECTS</div>
                             <Slider {...settings}>
                                 <div>

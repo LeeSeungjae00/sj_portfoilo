@@ -98,6 +98,52 @@
     padding-bottom: 1rem;
 }
 
+.slideLap{
+    width: 95%;
+    margin: 0 auto;
+}
+
 a{
     word-break: break-word;
+}
+
+@media screen and (max-width:1024px) {
+    /* 타블렛 */
+    .projectCardTitle {
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 1.2rem;
+    }
+    .projectPage {
+        width: 100%;
+    }
+    
+    .projectCardContent {
+        grid-template-rows: 6fr 4fr;
+        grid-template-columns: none;
+    }
+    .slideLap{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    /* 모바일 */
+    .projectCardTitle {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 1.2rem;
+    }
+    .slideLap{
+        width: 85%;
+    }
+    .projectAccText {
+        font-size: 0.7rem;
+    }
+    
+    .projectAccStack {
+        font-size: 0.7rem;
+    }
 }
