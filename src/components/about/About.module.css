@@ -50,6 +50,7 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         height: inherit;
+        height: 77vh;
     }
     .aboutPage {
         flex-direction: column;

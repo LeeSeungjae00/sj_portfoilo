@@ -60,6 +60,23 @@ export default function Project() {
                                 </div>
                                 <div>
                                     <ProjectCard
+                                        title="lsj's portfolio"
+                                        imgSrc="lsj_portfolio.gif"
+                                        imgAlt="lsj portfolio"
+                                        AccText={
+                                            <>
+                                                나 이승재를 소개하는 간단한 웹 사이트<br></br>
+                                                <b>React.js의 웹 제작 방법에 대해 다시한번 복습하며, 반응형 웹에 대한 기술, react-animation, react-slider 과 같은 각종 에니메이션 라이브러리사용 기법, netflify를 통한 배포 방식</b> 과 같은 가술을 익힐 수 있었습니다.
+                                            </>
+                                        }
+                                        mainFuc={<>웹 프론트엔드 개발자 이승재를 소개하는 웹 사이트</>}
+                                        domain="https://lsjportfolio.netlify.app/"
+                                        github="https://github.com/LeeSeungjae00/sj_portfoilo"
+                                        stack="React.js, css"
+                                    ></ProjectCard>
+                                </div>
+                                <div>
+                                    <ProjectCard
                                         title={<><div>B-35K</div><div style={{ fontSize: "1rem", color: 'gray' }}>전 회사 GSI 프로젝트</div></>}
                                         imgSrc="b-35k.png"
                                         imgAlt="b-35k"
