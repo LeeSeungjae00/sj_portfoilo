@@ -31,7 +31,7 @@ export default function Project() {
                                         imgAlt="plan-b"
                                         AccText={
                                             <>
-                                                사용자들이 자신의 신체 정보를 통해서 B형 간염에 걸릴 확률을 알 수 있는 웹 사이트입니다. <br></br>
+                                                사용자들이 자신의 신체 정보를 통해서 B형 간염에 걸릴 확률을 알 수 있는 웹 사이트입니다. <br></br><br></br>
                                                 <b>React.js 관련 기술 습득, Chart.js를 통한 차트 표출, Axios와 같은 통신 라이브러리를 통한 REST API 사용</b>을 익혔습니다.
                                             </>
                                         }
@@ -48,7 +48,7 @@ export default function Project() {
                                         imgAlt="ai-scope"
                                         AccText={
                                             <>
-                                                궤양의 종류 3가지중 드래그나 파일 선택을 통해 받아온 이미지를 통하여 궤양의 종류가 무엇 인지 예측 할 수있는 웹 사이트 입니다.<br></br>
+                                                궤양의 종류 3가지중 드래그나 파일 선택을 통해 받아온 이미지를 통하여 궤양의 종류가 무엇 인지 예측 할 수있는 웹 사이트 입니다.<br></br><br></br>
                                                 <b>React.js 관련 기술 습득, 이미지 처리에 대한 기술, Axios와 같은 통신 라이브러리를 통한 REST API 사용</b>을 익혔습니다.
                                             </>
                                         }
@@ -65,8 +65,8 @@ export default function Project() {
                                         imgAlt="lsj portfolio"
                                         AccText={
                                             <>
-                                                나 이승재를 소개하는 간단한 웹 사이트<br></br>
-                                                <b>React.js의 웹 제작 방법에 대해 다시한번 복습하며, 반응형 웹에 대한 기술, react-animation, react-slider 과 같은 각종 에니메이션 라이브러리사용 기법, netflify를 통한 배포 방식</b> 과 같은 가술을 익힐 수 있었습니다.
+                                                나 이승재를 소개하는 간단한 웹 사이트<br></br><br></br>
+                                                <b>React.js의 웹 제작 방법에 대해 다시한번 복습하며, 반응형 웹에 대한 기술, react-animation, react-slider 과 같은 각종 에니메이션 라이브러리사용 기법, netflify를 통한 배포 방식</b> 과 같은 기술을 익힐 수 있었습니다.
                                             </>
                                         }
                                         mainFuc={<>웹 프론트엔드 개발자 이승재를 소개하는 웹 사이트</>}
@@ -82,8 +82,8 @@ export default function Project() {
                                         imgAlt="b-35k"
                                         AccText={
                                             <>
-                                                중계기의 온도, 오프셋 등의 각종 정보를 받아와 표출하고 각종 설정을 통해 중계기를 제어할 수 있는 웹 페이지 입니다.<br></br>
-                                                <b>lazy loading, React-Router, TypeScript를 통한 React 사용법과 같은 좀더 심화적인 React.js 관련 기술, 상태관리 미들웨어 Redux의 동작과 사용법, Axios와 같은 통신 라이브러리를 통한 REST API 사용</b> 과 같은 가술을 익힐 수 있었습니다.
+                                                중계기의 온도, 오프셋 등의 각종 정보를 받아와 표출하고 각종 설정을 통해 중계기를 제어할 수 있는 웹 페이지 입니다.<br></br><br></br>
+                                                <b>lazy loading, React-Router, TypeScript를 통한 React 사용법과 같은 좀더 심화적인 React.js 관련 기술, 상태관리 미들웨어 Redux의 동작과 사용법, Axios와 같은 통신 라이브러리를 통한 REST API 사용</b> 과 같은 기술을 익힐 수 있었습니다.
                                             </>
                                         }
                                         mainFuc={<>중계기의 각종 상태 값들을 조회하고 제어할 수 있는 웹 페이지</>}
@@ -99,7 +99,7 @@ export default function Project() {
                                         imgAlt="ir1"
                                         AccText={
                                             <>
-                                                중계기의 온도, 오프셋 등의 각종 정보를 받아와 표출하고 각종 설정을 통해 중계기를 제어할 수 있는 웹 페이지 입니다.<br></br>
+                                                중계기의 온도, 오프셋 등의 각종 정보를 받아와 표출하고 각종 설정을 통해 중계기를 제어할 수 있는 웹 페이지 입니다.<br></br><br></br>
                                                 기초를 다지게 된 프로젝트 이며 <b>기본적인 javascript, html, css의 사용법과 웹의 구동 방식, jquery를 통한 비동기 통신</b>을 익혔습니다.
                                             </>
                                         }
