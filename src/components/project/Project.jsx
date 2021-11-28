@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import style from './Project.module.css'
 import Slider from "react-slick";
 import ProjectCard from './ProjectCard';
-import {Element} from 'react-scroll'
+import { Element } from 'react-scroll'
 
 export default function Project() {
     const settings = {
@@ -13,7 +13,7 @@ export default function Project() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        className : "slide",
+        className: "slide",
     };
 
     return (
@@ -21,9 +21,27 @@ export default function Project() {
             <div className={style.project}>
                 <div className={style.projectPage}>
                     <div className={style.projectContent}>
-                        <div className ={style.slideLap}>
+                        <div className={style.slideLap}>
                             <div className={style.title}>👨‍💻 PROJECTS</div>
                             <Slider {...settings}>
+                                <div>
+                                    <ProjectCard
+                                        title="Muscle hub"
+                                        imgSrc="muscle_hub.gif"
+                                        imgAlt="muscle_hub"
+                                        AccText={
+                                            <>
+                                                일,년마다 사용자가 얼마나 운동했는지 기록하고 알 수 있는 웹 사이트 입니다. 운동과 개발은 비슷한 맥락이다라고 느꼈고 github의 잔디밭 채우는 것에 영감을 받아
+                                                그것을 운동 볼륨 수에 도입하여 웹을 구상하고 설계하였습니다. <br></br><br></br>
+                                                <b>React.js 에서 Redux를 통한 상태관리, redux-thunk등 미들웨어를 사용한 비동기 처리, firebase를 통한 OAuth, real time datebase</b>와 같은 기술을 익혔습니다.
+                                            </>
+                                        }
+                                        mainFuc={<>사용자의 신체 정보를 넣어 년수마다 B형간염에 걸릴 년수마다 확률을 측정</>}
+                                        domain="https://muscle-hub.netlify.app/"
+                                        github="https://github.com/LeeSeungjae00/muscle_memory"
+                                        stack="React.js,React-router , redux, redux-thunk, firebase, post-css, netlify"
+                                    ></ProjectCard>
+                                </div>
                                 <div>
                                     <ProjectCard
                                         title="PLAN-B"
