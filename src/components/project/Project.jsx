@@ -36,7 +36,7 @@ export default function Project() {
                                                 <b>React.js 에서 Redux를 통한 상태관리, redux-thunk등 미들웨어를 사용한 비동기 처리, firebase를 통한 OAuth, real time datebase</b>와 같은 기술을 익혔습니다.
                                             </>
                                         }
-                                        mainFuc={<>사용자의 신체 정보를 넣어 년수마다 B형간염에 걸릴 년수마다 확률을 측정</>}
+                                        mainFuc={<>운동량을 기록하며 자신이 얼마나 운동했고 몇키로 들었는지에 대한 성취감을 느끼게 하는 웹사이트 입니다.</>}
                                         domain="https://muscle-hub.netlify.app/"
                                         github="https://github.com/LeeSeungjae00/muscle_memory"
                                         stack="React.js,React-router , redux, redux-thunk, firebase, post-css, netlify"
