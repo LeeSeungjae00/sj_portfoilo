@@ -74,6 +74,18 @@
     color: #646464;
 }
 
+.resumeLink{
+    display: block;
+    text-align: initial;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: gray;
+    padding-top: 0.5rem;
+}
+
+.resumeLink:hover{
+    color: cornflowerblue;
+}
 @media screen and (max-width:1024px) {
     /* 타블렛 */
     .mainPage {
@@ -90,6 +102,10 @@
         padding-left: 1rem;
     }
     .subText{
+        padding-left: 1rem;
+    }
+
+    .resumeLink{
         padding-left: 1rem;
     }
 

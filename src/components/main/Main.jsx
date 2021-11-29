@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import style from './Main.module.css'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Facebook from '@mui/icons-material/Facebook';
@@ -56,6 +56,7 @@ export default function Main() {
                             <hr></hr>
                             <div className={style.subText}>새로운 기술을 도입하는 것을 좋아하며</div>
                             <div className={style.subText}>성장에 목마른 웹 프론트 앤드 개발자 입니다.</div>
+                            <a className={style.resumeLink} href="leesjResume.pdf">{`>>이력서 보기`}</a>
                         </div>
                         <div className={style.imgLap}>
                             <img className={style.myPicture} src="IMG_0117.JPG" alt="my_picture" />
