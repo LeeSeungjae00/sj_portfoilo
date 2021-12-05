@@ -89,7 +89,7 @@ export default function Project() {
                                         }
                                         mainFuc={<>웹 프론트엔드 개발자 이승재를 소개하는 웹 사이트</>}
                                         domain="https://lsjportfolio.netlify.app/"
-                                        github="https://github.com/LeeSeungjae00/sj_portfoilo"
+                                        github="https://github.com/LeeSeungjae00/sj_portfolio"
                                         stack="React.js, css"
                                     ></ProjectCard>
                                 </div>
