@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useLayoutEffect } from 'react'
 import {
     useTransition,
     useSpring,
@@ -14,15 +14,18 @@ import { Link } from 'react-scroll'
 
 
 export default function Header() {
+    const [moblieView, setMoblieView] = useState(false);
+
     const [scrollPosition, setScrollPosition] = useState(window.screenX)
     const [open, set] = useState(false)
 
     const springApi = useSpringRef()
-    const { size, ...rest } = useSpring({
+    const { size, jsc, ...rest } = useSpring({
         ref: springApi,
         config: config.stiff,
         to: {
-            size: open ? '50vw' : '3vw',
+            size: open ? '40rem' : moblieView ? '1.5rem' :'3rem' ,
+            jsc : open ? 'space-between' : 'center' 
         },
     })
 
@@ -43,28 +46,32 @@ export default function Header() {
     const updateScroll = () => {
         setScrollPosition(window.scrollY || document.documentElement.scrollTop);
     }
-    useEffect(() => {
+
+    useLayoutEffect(() => {
         window.addEventListener('scroll', updateScroll);
-    });
+        window.innerWidth < 900 ? setMoblieView(true): setMoblieView(false);
+    })
 
     return (
         <header className={scrollPosition < 100 ? style.header : style.changeHeader}>
             <div className={scrollPosition < 100 ? style.headerContent : style.changeHeaderContent}>
                 <animated.div
-                    style={{ ...rest, width: size }}
+                    style={{ ...rest, width: size , justifyContent : jsc}}
                     className={style.menuButton}
                     onMouseOver={() => { if (!open) set(true); }}
                     onMouseLeave={() => { if (open) set(false); }}
                 >
                     {!open ?
-                        <MenuIcon sx={{ color: 'rgb(155,155,152)', fontSize: "3rem" }} ></MenuIcon> :
-                        <ArrowForwardIcon sx={{ color: 'rgb(155,155,152)', fontSize: "3rem" }} ></ArrowForwardIcon>}
-                    {transition((style) => (
+                        <MenuIcon  sx={{ 
+                            color: 'rgb(155,155,152)', 
+                            fontSize: moblieView ? '1.5rem' : '3rem' }} ></MenuIcon> :
+                        <ArrowForwardIcon  sx={{ color: 'rgb(155,155,152)', fontSize: moblieView ? '1.5rem' : '3rem' }}></ArrowForwardIcon>}
+                    {transition((sty) => (
                         <animated.div
-                            style={{ ...style, display: 'flex', width: '100%', justifyContent: 'space-around' }}
+                            style={{ ...sty, display: 'flex', width: '100%', justifyContent: 'space-around' }}
                         >
 
-                            <Link activeClass="active" className="main" to="main" spy={true} smooth={true} duration={500} >
+                            <Link activeClass="active" className={style.menu} to="main" spy={true} smooth={true} duration={500} >
                                 <div className={style.menu}>🏠 HOME</div>
                             </Link>
                             <Link activeClass="active" className="about" to="about" spy={true} smooth={true} duration={500} >
