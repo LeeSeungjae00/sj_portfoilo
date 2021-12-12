@@ -16,7 +16,7 @@
     "react-scripts": "^4.0.3",
     "react-scroll": "^1.8.4",
     "react-slick": "^0.28.1",
-    "react-spring": "^9.3.0",
+    "react-spring": "^9.3.2",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"
   },
