@@ -1,16 +1,11 @@
-import React, { useState } from 'react'
-import {
-    useTransition,
-    useSpring,
-    useChain,
-    config,
-    animated,
-    useSpringRef,
-} from '@react-spring/web'
+import React from 'react'
 import style from './Skill.module.css'
 import { Element } from 'react-scroll'
-import data from './lang'
 import SkillCard from './SkillCard'
+import lang from './lang'
+import framework from './framework'
+import management from './management'
+import qualification from './qualification'
 
 export default function Skill() {
     
@@ -22,16 +17,10 @@ export default function Skill() {
                         <div className={style.skillTitle}>📚MY SKILL</div>
                         <hr />
                         <div className={style.skillImgSet}>
-                            {/* <div className={style.imgLap}><img src="html_css_js.png" alt="html,js,css" className={style.skillImg} /></div>
-                            <div className={style.imgLap}><img src="react.png" alt="react" className={style.skillImg} /></div>
-                            <div className={style.imgLap}><img src="redux.png" alt="redux" className={style.skillImg} /></div>
-                            <div className={style.imgLap}><img src="typescript.png" alt="typescript" className={style.skillImg} /></div>
-                            <div className={style.imgLap}><img src="git.png" alt="git" className={style.skillImg} /></div>
-                            <div className={style.imgLap}><img src="jquery.png" alt="jquery" className={style.skillImg} /></div> */}
-                            <SkillCard icon = "📒" title = "Language"></SkillCard>
-                            <SkillCard icon = "⚙️" title = "Framework"></SkillCard>
-                            <SkillCard icon = "🐈" title = "management"></SkillCard>
-                            <SkillCard icon = "🗒" title = "qualification"></SkillCard>
+                            <SkillCard icon = "📒" title = "Language" data ={lang}></SkillCard>
+                            <SkillCard icon = "⚙️" title = "Framework" data ={framework}></SkillCard>
+                            <SkillCard icon = "🐈" title = "management" data ={management}></SkillCard>
+                            <SkillCard icon = "🗒" title = "qualification" data ={qualification}></SkillCard>
                         </div>
                     </div>
                 </div>

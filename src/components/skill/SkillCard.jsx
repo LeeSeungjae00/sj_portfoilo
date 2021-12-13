@@ -7,11 +7,10 @@ import {
     animated,
     useSpringRef,
 } from '@react-spring/web'
-import data from './lang'
 import styles from './SkillCard.module.css'
 
 
-export default function SkillCard({title, icon}) {
+export default function SkillCard({title, icon, data}) {
     const [open, set] = useState(false)
 
     const springApi = useSpringRef()
