@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
     useTransition,
     useSpring,
@@ -50,7 +50,7 @@ export default function Header() {
     useEffect(() => {
         window.addEventListener('scroll', updateScroll);
         window.innerWidth < 900 ? setMoblieView(true) : setMoblieView(false);
-    })
+    } , [setMoblieView])
 
     return (
         <header className={scrollPosition < 100 ? style.header : style.changeHeader}>
