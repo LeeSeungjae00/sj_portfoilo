@@ -1,0 +1,56 @@
+.box {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    cursor: pointer;
+}
+
+.box:hover{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.boxTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.boxIcon{
+    margin: 0;
+    font-size: 3rem;
+    
+}
+.boxText{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill{
+    margin-bottom: 1rem;
+    width: 95%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    height: 10%;
+}
+
+.icon{
+    width: 2rem;
+    padding-right: 0.5rem;
+    fill: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

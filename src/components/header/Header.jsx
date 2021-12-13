@@ -24,8 +24,8 @@ export default function Header() {
         ref: springApi,
         config: config.stiff,
         to: {
-            size: open ? '40rem' : moblieView ? '1.5rem' :'3rem' ,
-            jsc : open ? 'space-between' : 'center' 
+            size: open ? '40rem' : moblieView ? '1.5rem' : '3rem',
+            jsc: open ? 'space-between' : 'center'
         },
     })
 
@@ -47,25 +47,26 @@ export default function Header() {
         setScrollPosition(window.scrollY || document.documentElement.scrollTop);
     }
 
-    useLayoutEffect(() => {
+    useEffect(() => {
         window.addEventListener('scroll', updateScroll);
-        window.innerWidth < 900 ? setMoblieView(true): setMoblieView(false);
+        window.innerWidth < 900 ? setMoblieView(true) : setMoblieView(false);
     })
 
     return (
         <header className={scrollPosition < 100 ? style.header : style.changeHeader}>
             <div className={scrollPosition < 100 ? style.headerContent : style.changeHeaderContent}>
                 <animated.div
-                    style={{ ...rest, width: size , justifyContent : jsc}}
+                    style={{ ...rest, width: size, justifyContent: jsc }}
                     className={style.menuButton}
                     onMouseOver={() => { if (!open) set(true); }}
                     onMouseLeave={() => { if (open) set(false); }}
                 >
                     {!open ?
-                        <MenuIcon  sx={{ 
-                            color: 'rgb(155,155,152)', 
-                            fontSize: moblieView ? '1.5rem' : '3rem' }} ></MenuIcon> :
-                        <ArrowForwardIcon  sx={{ color: 'rgb(155,155,152)', fontSize: moblieView ? '1.5rem' : '3rem' }}></ArrowForwardIcon>}
+                        <MenuIcon sx={{
+                            color: 'rgb(155,155,152)',
+                            fontSize: moblieView ? '1.5rem' : '3rem'
+                        }} ></MenuIcon> :
+                        <ArrowForwardIcon sx={{ color: 'rgb(155,155,152)', fontSize: moblieView ? '1.5rem' : '3rem' }}></ArrowForwardIcon>}
                     {transition((sty) => (
                         <animated.div
                             style={{ ...sty, display: 'flex', width: '100%', justifyContent: 'space-around' }}

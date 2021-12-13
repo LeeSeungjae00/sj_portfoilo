@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-
 .header {
     position: fixed;
     top: 0;
@@ -20,7 +17,6 @@
 }
 
 .headerContent {
-    font-family: 'Nanum Gothic Coding', monospace;
     width: 100%;
     max-width: 73rem;
     height: 9rem;
@@ -29,10 +25,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .changeHeaderContent {
-    font-family: 'Nanum Gothic Coding', monospace;
     width: 100%;
     max-width: 73rem;
     height: 4rem;
@@ -45,10 +41,12 @@
 
 .headerContent>.headerTitle {
     color: white;
+    font-weight: 300;
 }
 
 .changeHeaderContent>.headerTitle {
     color: black;
+    font-weight: 300;
 }
 
 .headerTitle:hover {

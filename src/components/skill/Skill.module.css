@@ -1,6 +1,6 @@
 .skill {
     /* font-family: 'Nanum Gothic Coding', monospace; */
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(202, 222, 228);
 }
 
 .skillPage {
@@ -16,24 +16,24 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     
 }
 
 .skillTitle{
-    font-size: 3.5rem;
-    color: rgb(92, 92, 92);
+    font-size: 2.5rem;
+    color: black;
+    font-weight: 300;
     text-align: start;
-    border-bottom: 1px solid rgb(92, 92, 92);
+    align-self: flex-start;
 }
 .skillImgSet{
-    display: grid;
+    display: flex;
     height: 72%;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 50% 50%;
-    margin: 0 auto;
     grid-gap: 1rem;
-    width: 80%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .skillImg{
