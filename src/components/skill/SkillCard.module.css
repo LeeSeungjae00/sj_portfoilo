@@ -23,7 +23,7 @@
 
 .boxIcon{
     margin: 0;
-    font-size: 3rem;
+    font-size: 5rem;
     
 }
 .boxText{
@@ -53,4 +53,51 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width:1024px) {
+    /* 타블렛 */
+    .skill{
+        font-size: 1.1rem;
+    }
+
+    .boxIcon{
+        margin: 0;
+        font-size: 3rem;
+        
+    }
+    
+    .icon{
+        width: 1.5rem;
+        padding-right: 0.5rem;
+        fill: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    /* 모바일 */
+    .skill{
+        font-size: 0.7rem;
+        font-weight: 400;
+        height: 8%;
+    }
+    
+    .icon{
+        width: 0.8rem;
+        padding-right: 0.1rem;
+    }
+    .box{
+        max-width: 40%;
+    }
+    .boxIcon{
+        font-size: 2rem;
+        
+    }
+    .boxText{
+        font-size: 0.5rem;
+    }
 }

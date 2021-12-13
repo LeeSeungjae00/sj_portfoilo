@@ -19,8 +19,8 @@ export default function Skill() {
                         <div className={style.skillImgSet}>
                             <SkillCard icon = "📒" title = "Language" data ={lang}></SkillCard>
                             <SkillCard icon = "⚙️" title = "Framework" data ={framework}></SkillCard>
-                            <SkillCard icon = "🐈" title = "management" data ={management}></SkillCard>
-                            <SkillCard icon = "🗒" title = "qualification" data ={qualification}></SkillCard>
+                            <SkillCard icon = "🐈" title = "Management" data ={management}></SkillCard>
+                            <SkillCard icon = "🗒" title = "Qualification" data ={qualification}></SkillCard>
                         </div>
                     </div>
                 </div>

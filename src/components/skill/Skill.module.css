@@ -34,6 +34,7 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .skillImg{
@@ -54,16 +55,12 @@
         font-size: 2rem;
         margin-left: 1rem;
     }
-    .skillImgSet{
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 33% 33% 33%;
-    }
 }
 
 
 @media screen and (max-width:767px) {
     /* 모바일 */
     .skillContent{
-        padding-top: 15vh;      
+        padding-top: 10xvh;    
     }
 }
