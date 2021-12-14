@@ -2,10 +2,10 @@ import React from 'react'
 import style from './Skill.module.css'
 import { Element } from 'react-scroll'
 import SkillCard from './SkillCard'
-import lang from './lang'
-import framework from './framework'
-import management from './management'
-import qualification from './qualification'
+import lang from './data/lang'
+import framework from './data/framework'
+import management from './data/management'
+import qualification from './data/qualification'
 
 export default function Skill() {
     
